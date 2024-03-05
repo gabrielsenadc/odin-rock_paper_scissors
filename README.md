@@ -1,1 +1,1 @@
-# odin-rock_paper_scissors
+Site de um jogo de pedra-papel-tesoura com JavaScript
