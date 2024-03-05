@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 10px;
+}
+
+.container .game {
+    height: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.game .imagem {
+    flex: 0 1 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    height: 200px;
+    width: auto;
+}
+
+.game .choices {
+    display: flex;
+}
+
+.choices button{
+    flex: 1;
+    margin: 0 10px;
+}
+
+.container .vs {
+    flex: 0 1 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.vs .imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.vs .imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+}
+
+#again{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
